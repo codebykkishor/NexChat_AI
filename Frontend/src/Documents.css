@@ -1,0 +1,61 @@
+.documents {
+    margin: 0 10px;
+    padding: 10px;
+    border-top: solid 0.25px rgba(255, 255, 255, 0.5);
+    font-size: 13px;
+}
+
+.documentsHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.documentsHeader button {
+    margin: 0;
+    padding: 4px 10px;
+    font-size: 12px;
+}
+
+.documentsStatus {
+    margin: 6px 0;
+    color: #b4b4b4;
+    font-size: 12px;
+}
+
+.documents ul {
+    list-style: none;
+    margin: 6px 0 0;
+    padding: 0;
+    max-height: 110px;
+    overflow-y: auto;
+}
+
+.documents li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 4px;
+    color: #b4b4b4;
+}
+
+.documents li span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.documents li i {
+    cursor: pointer;
+    opacity: 0.6;
+    margin-left: 8px;
+}
+
+.documents li i:hover {
+    color: #f87171;
+    opacity: 1;
+}
+
+.documentsEmpty {
+    font-style: italic;
+}
